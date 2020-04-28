@@ -3748,7 +3748,7 @@
 					removeRows(self);
 					removeRows(frozenTable);
 					if (scroll && p.scroll) {
-						$(bDiv.firstChild).css({ height: "auto" });
+						$(bDiv.firstChild).css({ height: (p.height + 100) + "px" });
 						$(bDiv.firstChild.firstChild).css({ height: 0, display: "none" });
 						if (bDiv.scrollTop !== 0) {
 							bDiv.scrollTop = 0;
@@ -6134,7 +6134,7 @@
 			grid.bDiv = document.createElement("div");
 			if (isMSIE) { if (String(p.height).toLowerCase() === "auto") { p.height = "100%"; } }
 			$(grid.bDiv)
-				.append($("<div style='position:relative;'></div>").append("<div></div>").append(ts))
+				.append($("<div style='position:relative;height:" + (p.height + (p.scroll ? 100 : 0)) + "px'></div>").append("<div></div>").append(ts))
 				.addClass("ui-jqgrid-bdiv")
 				.css({ height: p.height + (isNaN(p.height) ? "" : "px"), width: (grid.width) + "px" })
 				.scroll(grid.scrollGrid);
@@ -11628,7 +11628,7 @@
 	 * http://www.codeproject.com/KB/scripting/json-filtering.aspx
 	 *
 	 * The filter uses JSON entities to hold filter rules and groups. Here is an example of a filter:
-
+	
 	{ "groupOp": "AND",
 		  "groups" : [
 			{ "groupOp": "OR",
@@ -11642,7 +11642,7 @@
 			{ "field": "name", "op": "eq", "data": "Romania" },
 			{ "field": "id", "op": "le", "data": "1"}
 		  ]
-	}
+}
 	*/
 	// begin module grid.filter
 	$.fn.jqFilter = function (arg) {
@@ -12458,21 +12458,21 @@
 
 	/**
 		The below work is licensed under Creative Commons GNU LGPL License.
-
+	
 		Original work:
-
+	
 		License:     http://creativecommons.org/licenses/LGPL/2.1/
 		Author:      Stefan Goessner/2006
 		Web:         http://goessner.net/
-
+	
 		Modifications made:
-
+	
 		Version:     0.9-p5
 		Description: Restructured code, JSLint validated (no strict whitespaces),
 					 added handling of empty arrays, empty strings, and int/floats values.
 		Author:      Michael Schøler/2008-01-29
 		Web:         http://michael.hinnerup.net/blog/2008/01/26/converting-json-to-xml-and-xml-to-json/
-
+	
 		Description: json2xml added support to convert functions as CDATA
 					 so it will be easy to write characters that cause some problems when convert
 		Author:      Tony Tomov

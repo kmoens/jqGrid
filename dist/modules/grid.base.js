@@ -3748,7 +3748,7 @@
 					removeRows(self);
 					removeRows(frozenTable);
 					if (scroll && p.scroll) {
-						$(bDiv.firstChild).css({ height: "auto" });
+						$(bDiv.firstChild).css({ height: (p.height + 100) + "px" });
 						$(bDiv.firstChild.firstChild).css({ height: 0, display: "none" });
 						if (bDiv.scrollTop !== 0) {
 							bDiv.scrollTop = 0;
@@ -6134,7 +6134,7 @@
 			grid.bDiv = document.createElement("div");
 			if (isMSIE) { if (String(p.height).toLowerCase() === "auto") { p.height = "100%"; } }
 			$(grid.bDiv)
-				.append($("<div style='position:relative;'></div>").append("<div></div>").append(ts))
+				.append($("<div style='position:relative;height:" + (p.height + (p.scroll ? 100 : 0)) + "px'></div>").append("<div></div>").append(ts))
 				.addClass("ui-jqgrid-bdiv")
 				.css({ height: p.height + (isNaN(p.height) ? "" : "px"), width: (grid.width) + "px" })
 				.scroll(grid.scrollGrid);

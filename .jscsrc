@@ -9,5 +9,6 @@
 	//"validateQuoteMarks": "\"",
 	"requireSpaceAfterComma": {"allExcept": ["trailing"]},
 	"requireSpacesInsideObjectBrackets": "all",
-	"requireVarDeclFirst": null
+	"requireVarDeclFirst": null,
+	"disallowTrailingWhitespace": false
 }
