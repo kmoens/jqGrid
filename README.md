@@ -38,6 +38,9 @@ All other language files and plugins are available from CDN too. See [the wiki a
 
 Remark: the above URLs will be available **after publishing** the release of the version of 4.15.5.
 
+### New main features implemented in the version 4.15.5.CS compared with 4.15.5:
+* Bug fix in scrollable grids: the height is not always calculated correctly, which implied that the scrollbar was not visible, and that not all records would be visible.
+
 ### New main features implemented in the version 4.15.5 compared with 4.15.4:
 
 * Add support of free Font Awesome 5.x. To use the feature one need to include Font Awesome 5.x either as CSS (by including `https://use.fontawesome.com/releases/v5.2.0/css/all.css` for example) or as SVG file (by including `https://use.fontawesome.com/releases/v5.2.0/js/all.js`). More examples of the usage will be published later [here](https://free-jqgrid.github.io/getting-started/index.html). Additionally, one has to use `iconSet: "fontAwesomeSolid"` or `iconSet: "fontAwesomeSVG"` instead of `iconSet: "fontAwesome"`, which means Font Awesome 4.x.
