@@ -1,0 +1,25 @@
+
+_javascript:S2259™2"BTypeError can be thrown as "root" might be null or undefined here.(éó“Ö
+Mjavascript:S1117ª/"+'p' is already declared in the upper scope.(ğ¹­øùÿÿÿÿ
+[javascript:S1854ä5"9Remove this useless assignment to variable "editingInfo".(­Àª”ùÿÿÿÿ
+gjavascript:S905ø:"FExpected an assignment or function call and instead saw an expression.(²´ôîıÿÿÿÿ
+ljavascript:S3403à"JRemove this "!==" check; it will always be true. Did you mean to use "!="?(èù‚ûÿÿÿÿ
+Sjavascript:S1854†'"1Remove this useless assignment to variable "pgl".(œ«‘‹úÿÿÿÿ
+Kjavascript:S1117ˆ2".'path' is already declared in the upper scope.(Öî´Ö
+ljavascript:S3403ã"JRemove this "!==" check; it will always be true. Did you mean to use "!="?(úÆíóøÿÿÿÿ
+Ujavascript:S1854ù:"8Remove this useless assignment to variable "heightText".(ŸŞ˜÷
+]javascript:S3516ù0";Refactor this function to not always return the same value.(È™—öúÿÿÿÿ
+bjavascript:S2589ã."@This always evaluates to truthy. Consider refactoring this code.(»íÇÙÿÿÿÿÿ
+]javascript:S3516Ğ,";Refactor this function to not always return the same value.(Ç „¯ıÿÿÿÿ
+]javascript:S3516‡'";Refactor this function to not always return the same value.(ìóÊíÿÿÿÿÿ
+]javascript:S3516 '";Refactor this function to not always return the same value.(¨Å´×ûÿÿÿÿ
+Xjavascript:S3516©/";Refactor this function to not always return the same value.(éÁ‹¡
+Sjavascript:S1117‰2"1'classes' is already declared in the upper scope.(ÒÓûúÿÿÿÿ
+Bjavascript:S878ø:"!Unexpected use of comma operator.(²´ôîıÿÿÿÿ
+pjavascript:S3699ö"NRemove this use of the output from "getRes"; "getRes" doesn't return anything.(îÏ‰Òøÿÿÿÿ
+Qjavascript:S1854."4Remove this useless assignment to variable "hTable".(ùûÄÑ
+Zjavascript:S1854û:"8Remove this useless assignment to variable "heightIcon".(Î¿ÆÆúÿÿÿÿ
+kjavascript:S3699ÿ"NRemove this use of the output from "getRes"; "getRes" doesn't return anything.(¾Ï®
+Tjavascript:S1854ŸA"2Remove this useless assignment to variable "rows".(•­‚éıÿÿÿÿ
+Rjavascript:S1854À0"0Remove this useless assignment to variable "hb".(ãÜøÿÿÿÿ
+kjavascript:S3699ÿ"NRemove this use of the output from "getRes"; "getRes" doesn't return anything.(¾Ï®

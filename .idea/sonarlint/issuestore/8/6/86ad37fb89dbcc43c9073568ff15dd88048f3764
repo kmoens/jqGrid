@@ -1,0 +1,85 @@
+
+Sjavascript:S1854†'"1Remove this useless assignment to variable "pgl".(œ«‘‹úÿÿÿÿ
+Bjavascript:S878ø:"!Unexpected use of comma operator.(²´ôîıÿÿÿÿ
+Ujavascript:S1117›^"3'$datalist' is already declared in the upper scope.(À ¥Éúÿÿÿÿ
+^javascript:S3516 œ";Refactor this function to not always return the same value.(«ÌãÛıÿÿÿÿ
+njavascript:S3403ç‹"KRemove this "===" check; it will always be false. Did you mean to use "=="?(æ… Úùÿÿÿÿ
+Wjavascript:S1117¢•":'collapseOrExpand' is already declared in the upper scope.(ÅÂâc
+Vjavascript:S1117ü"4'encodeAttr' is already declared in the upper scope.(Âó¼ ûÿÿÿÿ
+Pjavascript:S1117òC".'jqID' is already declared in the upper scope.(ìô€¾şÿÿÿÿ
+Qjavascript:S1854."4Remove this useless assignment to variable "hTable".(ùûÄÑ
+Xjavascript:S3516áp";Refactor this function to not always return the same value.(›óİú
+^javascript:S3516Ô’";Refactor this function to not always return the same value.(ŸÅüÿÿÿÿÿ
+bjavascript:S2259Ê"@TypeError can be thrown as "$t" might be null or undefined here.(µµ¾ãúÿÿÿÿ
+kjavascript:S3699ÿ"NRemove this use of the output from "getRes"; "getRes" doesn't return anything.(¾Ï®
+]javascript:S3516Ğ,";Refactor this function to not always return the same value.(Ç „¯ıÿÿÿÿ
+Xjavascript:S3516³m";Refactor this function to not always return the same value.(…Ûâ¤
+Tjavascript:S1854­z"8Remove this useless assignment to variable "madeHidden".(˜‹„)
+Rjavascript:S1854À0"0Remove this useless assignment to variable "hb".(ãÜøÿÿÿÿ
+Xjavascript:S3516ùm";Refactor this function to not always return the same value.(ÅŸÉé
+Xjavascript:S3516ïp";Refactor this function to not always return the same value.(ã¡êé
+Mjavascript:S1117¢„"/'items' is already declared in the upper scope.(‚´ƒ 
+Yjavascript:S1117Ş]"7'searchoptions' is already declared in the upper scope.(¢¶úÿÿÿÿ
+Xjavascript:S3516­n";Refactor this function to not always return the same value.(ã¡êé
+Ljavascript:S1117…".'iCol' is already declared in the upper scope.(ÉÍÖŸ
+Vjavascript:S1854°"3Remove this useless assignment to variable "nRows".(ÃÉ‡°ûÿÿÿÿ
+Ojavascript:S1117È ",'cm' is already declared in the upper scope.(ÆõÚÿÿÿÿÿ
+Sjavascript:S1854„m"1Remove this useless assignment to variable "tms".(ÕÅë•ÿÿÿÿÿ
+Xjavascript:S3516…f";Refactor this function to not always return the same value.(šØæ
+Vjavascript:S1117š^"4'dataListId' is already declared in the upper scope.(½‡À­ûÿÿÿÿ
+Ljavascript:S1117à„".'iCol' is already declared in the upper scope.(·™ı
+^javascript:S3516ìœ";Refactor this function to not always return the same value.(ğ“Í¸øÿÿÿÿ
+Kjavascript:S1117ç„".'iCol' is already declared in the upper scope.(§ëÖ$
+Rjavascript:S1854…m"0Remove this useless assignment to variable "bt".(àÅªÜúÿÿÿÿ
+_javascript:S2259™2"BTypeError can be thrown as "root" might be null or undefined here.(éó“Ö
+Xjavascript:S3516Ÿn";Refactor this function to not always return the same value.(›óİú
+]javascript:S1854¢œ":Remove this useless assignment to variable "parentOffset".(ÌÎêşÿÿÿÿ
+Sjavascript:S1117¯["6'getGuiStyles' is already declared in the upper scope.(’ä¦ã
+Vjavascript:S1117õF"4'htmlDecode' is already declared in the upper scope.(äÜµ„ıÿÿÿÿ
+Kjavascript:S1117ˆ2".'path' is already declared in the upper scope.(Öî´Ö
+Xjavascript:S1117æ4"6'getGuiStyles' is already declared in the upper scope.(·¯Ï¾ûÿÿÿÿ
+=javascript:S878Še"!Unexpected use of comma operator.(Û§ºÊ
+Njavascript:S1854‡x"1Remove this useless assignment to variable "key".(Öæ «
+gjavascript:S905ø:"FExpected an assignment or function call and instead saw an expression.(²´ôîıÿÿÿÿ
+Pjavascript:S1117Ù‚"2'defaults' is already declared in the upper scope.(´İÚÜ
+fjavascript:S2259½™"HTypeError can be thrown as "parentdata" might be null or undefined here.(ƒ÷‰•
+[javascript:S1854ä5"9Remove this useless assignment to variable "editingInfo".(­Àª”ùÿÿÿÿ
+pjavascript:S3699ö"NRemove this use of the output from "getRes"; "getRes" doesn't return anything.(îÏ‰Òøÿÿÿÿ
+]javascript:S3516‡'";Refactor this function to not always return the same value.(ìóÊíÿÿÿÿÿ
+Xjavascript:S3516šn";Refactor this function to not always return the same value.(ğ—¯Ò
+Rjavascript:S1854­p"0Remove this useless assignment to variable "bt".(àÅªÜúÿÿÿÿ
+]javascript:S3516íq";Refactor this function to not always return the same value.(ş –Äúÿÿÿÿ
+kjavascript:S3699ÿ"NRemove this use of the output from "getRes"; "getRes" doesn't return anything.(¾Ï®
+bjavascript:S2589ã."@This always evaluates to truthy. Consider refactoring this code.(»íÇÙÿÿÿÿÿ
+Tjavascript:S1854ŸA"2Remove this useless assignment to variable "rows".(•­‚éıÿÿÿÿ
+Wjavascript:S1854¶z"5Remove this useless assignment to variable "colSpan".(µÖÖÿÿÿÿÿÿ
+Qjavascript:S1117¨£".'iCol' is already declared in the upper scope.(åñ‘«úÿÿÿÿ
+Wjavascript:S3782â"4Change this argument to the documented type: Number.(Óê»úÿÿÿÿ
+Zjavascript:S1854û:"8Remove this useless assignment to variable "heightIcon".(Î¿ÆÆúÿÿÿÿ
+Qjavascript:S1117È ".'iCol' is already declared in the upper scope.(ÆõÚÿÿÿÿÿ
+ljavascript:S3403à"JRemove this "!==" check; it will always be true. Did you mean to use "!="?(èù‚ûÿÿÿÿ
+ljavascript:S3403ã"JRemove this "!==" check; it will always be true. Did you mean to use "!="?(úÆíóøÿÿÿÿ
+Xjavascript:S3516©/";Refactor this function to not always return the same value.(éÁ‹¡
+Sjavascript:S1117‰2"1'classes' is already declared in the upper scope.(ÒÓûúÿÿÿÿ
+]javascript:S3516ù0";Refactor this function to not always return the same value.(È™—öúÿÿÿÿ
+njavascript:S3403æ‹"KRemove this "===" check; it will always be false. Did you mean to use "=="?(ŸÉË®ÿÿÿÿÿ
+Qjavascript:S1117óN"4'htmlEncode' is already declared in the upper scope.(µ›ß
+Qjavascript:S1117ãM"4'clearArray' is already declared in the upper scope.(øÒûŸ
+Ujavascript:S1854ù:"8Remove this useless assignment to variable "heightText".(ŸŞ˜÷
+Kjavascript:S1117ĞG".'jqID' is already declared in the upper scope.(¨ğ¡¹
+bjavascript:S905Še"FExpected an assignment or function call and instead saw an expression.(Û§ºÊ
+Qjavascript:S1117Ùf"4'getGridRes' is already declared in the upper scope.(Öÿôƒ
+Ljavascript:S1117¯…".'iCol' is already declared in the upper scope.(ëø€‹
+Yjavascript:S1117òX"7'safeHeightSet' is already declared in the upper scope.(àãë‰ûÿÿÿÿ
+Njavascript:S1117†"1'fmatter' is already declared in the upper scope.(éê³
+]javascript:S3516 '";Refactor this function to not always return the same value.(¨Å´×ûÿÿÿÿ
+Wjavascript:S1117Û]"5'editoptions' is already declared in the upper scope.(ü…ÏÉúÿÿÿÿ
+Sjavascript:S1117ß"6'getGuiStyles' is already declared in the upper scope.(’ä¦ã
+Qjavascript:S1117Õ"4'getGridRes' is already declared in the upper scope.(»¼áù
+Xjavascript:S1117÷3"6'getGuiStyles' is already declared in the upper scope.(·¯Ï¾ûÿÿÿÿ
+Rjavascript:S1117Ÿg"6'editFeedback' is already declared in the upper scope.(¦‡¯X
+Mjavascript:S1117ª/"+'p' is already declared in the upper scope.(ğ¹­øùÿÿÿÿ
+Mjavascript:S1117¨Z"+'o' is already declared in the upper scope.(‘Ì‡¥úÿÿÿÿ
+kjavascript:S3981…Z"OFix this expression; length of "grid.fsDiv" is always greater or equal to zero.(‹·“N
+Qjavascript:S1117î„".'iCol' is already declared in the upper scope.(ÑÊŸÏûÿÿÿÿ
+\javascript:S4030İg"?Either use this collection's contents or remove the collection.(Àˆ“ò
