@@ -826,7 +826,6 @@
 							case "checkbox":
 								var state = soptions.defaultValue !== undefined ? soptions.defaultValue : "-1";
 								$elem = $("<input role='search' type='checkbox' class='" + dataFieldClass +
-									"' name='" + (cm.index || cm.name) +
 									"' id='" + getId(cm.name) +
 									"' aria-labelledby='" + "jqgh_" + p.id + "_" + cm.name +
 									"' data-state='" + state + "'/>");
@@ -879,7 +878,7 @@
 												$td.append(data);
 											}
 											$select = $td.children("select");
-											$select.attr({ name: cm1.index || cm1.name, id: getId(cm1.name) });
+											$select.attr({ id: getId(cm1.name) });
 											if (soptions1.attr) { $select.attr(soptions1.attr); }
 											$select.addClass(dataFieldClass);
 											$select.css({ width: "100%" });
@@ -940,7 +939,6 @@
 										elem = document.createElement("select");
 										elem.style.width = "100%";
 										$elem = $(elem).attr({
-											name: cm.index || cm.name,
 											role: "search",
 											id: getId(cm.name),
 											"aria-describedby": p.id + "_" + cm.name
@@ -984,7 +982,6 @@
 								break;
 							case "text":
 								$elem = $("<input role='search' type='text' class='" + dataFieldClass +
-									"' name='" + (cm.index || cm.name) +
 									"' id='" + getId(cm.name) +
 									"' aria-labelledby='" + "jqgh_" + p.id + "_" + cm.name +
 									"' value='" + (soptions.defaultValue !== undefined ? soptions.defaultValue : "") + "'/>");
@@ -1033,7 +1030,7 @@
 								}
 								break;
 							case "custom":
-								$tdInput.append("<span style='width:100%;padding:0;box-sizing:border-box;' name='" + (cm.index || cm.name) + "' id='" + getId(cm.name) + "'/>");
+								$tdInput.append("<span style='width:100%;padding:0;box-sizing:border-box;' id='" + getId(cm.name) + "'/>");
 								try {
 									if ($.isFunction(soptions.custom_element)) {
 										var celm = soptions.custom_element.call($t, soptions.defaultValue !== undefined ? soptions.defaultValue : "", soptions);

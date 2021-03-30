@@ -9,6 +9,8 @@ The code from the GitHib repository is the fork of jqGrid 4.7.0 - the latest ver
 
 Below you can find short description of the bug fixes implemented in free jqGrid 4.15.5 (compared with version 4.15.4). The version is developed by [Oleg Kiriljuk](https://github.com/OlegKi), alias [Oleg](https://stackoverflow.com/users/315935/oleg) on the stackoverflow and [OlegK](http://www.trirand.com/blog/?page_id=393) on trirand forum.
 
+Additionally it contains the changes which are made by [Kenny Moens (Cipal Schaubroeck)](https://github.com/kmoens) after the original free jqGrid repository went dead.
+
 Read [Wiki](https://github.com/free-jqgrid/jqGrid/wiki) for more detailed information about the features of free-jqGrid. The preliminary version of the documentation can be found [here](https://free-jqgrid.github.io/).
 
 Free jqGrid can be used *for free*. We still ask to contribute the development by donating via PayPal, if one have the possibility for it. One can donate by clicking on the following button [![PayPayl donate button](https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_pp_142x27.png)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JGTCBLQM2BYHG "Donate once-off to free jqGrid project using PayPal") or by sending money via PayPal to oleg.kiriljuk@ok-soft-gmbh.com with the comment "free jqGrid". Bank transfer based on the invoice from OK soft GmbH is another option of donating. Just send the email with the information about the amount of donation and you will get the corresponding invoice with the full information about our bank account and our VAT number.
@@ -37,6 +39,12 @@ If somebody want to test the *latest* version of free jqGrid, one can load it di
 All other language files and plugins are available from CDN too. See [the wiki article](https://github.com/free-jqgrid/jqGrid/wiki/Access-free-jqGrid-from-different-CDNs) for more details about the usage of free jqGrid from CDNs and RawGit.
 
 Remark: the above URLs will be available **after publishing** the release of the version of 4.15.5.
+
+### New main features implemented in the version 4.15.5-CS.2 compared with 4.15.5-CS.1:
+* Don't provide a name to the fields in the filter toolbar, it creates problems when regular forms are defined.
+
+### New main features implemented in the version 4.15.5-CS.1 compared with 4.15.5-CS:
+* Bug fix in generation of the options dropdown for the filter, the `span` tag was not properly created in combiion with modern JQuery versions.
 
 ### New main features implemented in the version 4.15.5.CS compared with 4.15.5:
 * Bug fix in scrollable grids: the height is not always calculated correctly, which implied that the scrollbar was not visible, and that not all records would be visible.
